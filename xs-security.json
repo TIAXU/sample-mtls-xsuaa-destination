@@ -1,0 +1,7 @@
+{
+  "xsappname": "mtlsxsuaa",
+  "tenant-mode": "dedicated",
+  "oauth2-configuration": {
+    "credential-types": ["x509"]
+  }
+}

@@ -1,0 +1,12 @@
+---
+applications:
+  - name: backendmtls
+    path: backend
+    memory: 64M
+    services:
+      - mtlsXsuaa
+  - name: frontendmtls
+    path: frontend
+    memory: 64M
+    services:
+      - mtlsDestination
